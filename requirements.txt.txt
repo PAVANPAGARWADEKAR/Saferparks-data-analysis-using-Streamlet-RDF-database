@@ -1,1 +1,1 @@
-numpy
+rdflib==6.2.0
