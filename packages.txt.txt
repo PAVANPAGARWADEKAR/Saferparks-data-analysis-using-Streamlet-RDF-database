@@ -1,1 +1,1 @@
-rdflib-dev
+rdflib
