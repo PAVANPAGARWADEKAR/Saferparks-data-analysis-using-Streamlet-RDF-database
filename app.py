@@ -18,7 +18,7 @@ def importRDF(filename, format):
 
 # IMPORTING THE RDF
 with st.spinner('Loading all the stuffs...'):
-    graph = importRDF("./RDF/rdf-dataset.ttl", "ttl")
+    graph = importRDF("rdf-dataset.ttl", "ttl")
 
 # METHOD TO CONVERT THE QUERY RESULT INTO A DATAFRAME
 def sparql_results_to_df(results):
